@@ -1,5 +1,4 @@
 var express = require('express')
-  , poweredBy = require('connect-powered-by')
   , util = require('util');
 
 module.exports = function() {
@@ -34,7 +33,6 @@ module.exports = function() {
   // Use middleware.  Standard [Connect](http://www.senchalabs.org/connect/)
   // middleware is built-in, with additional [third-party](https://github.com/senchalabs/connect/wiki)
   // middleware available as separate modules.
-  this.use(poweredBy('Locomotive'));
   this.use(express.logger());
   this.use(express.favicon());
   this.use(express.static(__dirname + '/../../public'));
