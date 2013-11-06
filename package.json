@@ -6,6 +6,9 @@
     "locomotive": "0.3.x",
     "express": "3.x.x",
     "ejs": "0.8.x",
-    "jade": "~0.35.0"
+    "jade": "~0.35.0",
+    "grunt": "~0.4.1",
+    "grunt-contrib-less": "~0.8.1",
+    "grunt-contrib-watch": "~0.5.3"
   }
 }
