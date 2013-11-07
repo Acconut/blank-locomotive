@@ -13,7 +13,7 @@ Included is:
     * [CSS-Reset](http://meyerweb.com/eric/tools/css/reset/), Unsemantic
 
 There are three ways to start this app:
-```
+```bash
 # If you have the locomotive cli installed
 lcm server
 
