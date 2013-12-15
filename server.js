@@ -7,7 +7,7 @@ var locomotive = require("locomotive"),
     port = process.env.PORT || 8080,
     address = process.env.HOST || "0.0.0.0";
 
-locomotive.boot("./", {}, function(err, server) {
+locomotive.boot(__dirname, {}, function(err, server) {
     
     if(err) {
         throw err;
